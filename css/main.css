@@ -1,0 +1,250 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+
+.wr-preview {
+    height: 100vh;
+    background-image: url("../media/bg/bg-preview.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 52px;
+    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+
+/* header */
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo {
+    font-size: 18px;
+    font-family: "Sans-bold", sans-serif;
+    color: #212121;
+    text-transform: uppercase;
+}
+.header .nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+}
+.nav li {
+    margin-left: 22px;
+}
+.nav a {
+    font-family: "Sans-bold", sans-serif;
+    color: #212121;
+    text-transform: uppercase;
+    
+}
+.btn-menu {
+    display: flex;
+    margin-left: 20px;
+}
+/* intro*/
+.wr-intro{
+    flex-grow: 1;
+    padding-bottom: 18vh;
+    display: flex;
+    align-items: flex-end;
+}
+.wr-intro .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+.wr-intro h2 {
+    font-family: "Sans-black", sans-serif;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    
+}
+.wr-intro span {
+    height: 4px;
+    width: 138px;
+    background-color: #232323;
+    margin-bottom: 24px;
+}
+
+.wr-intro p {
+font-size: 18px;
+max-width: 570px;
+text-align: right;
+margin-bottom: 50px;
+line-height: 1.9;
+}
+.wr-intro button {
+    width: 272px;
+    height: 50px;
+    font-family: "Sans-semibold", sans-serif;
+    font-size: 18px;
+    border: 2px solid #232323 ;
+}
+
+/*about*/
+
+.wr-about {
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+.wr-about .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-about img {
+    margin-bottom: 18px;
+    height: 39px;
+}
+.wr-about .section-title {
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+    
+}
+.wr-about p {
+    text-align: center;
+    line-height: 1.7;
+    max-width: 960px;
+}
+
+/*settings*/
+
+.services {
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 110px;
+    
+} 
+.services .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.services-item {
+    width: 23%;
+}
+.services-item img {
+    margin-bottom: 26px;
+    height: 36px;
+}
+.services-item h3 {
+font-size: 18px;
+font-family: "Sans-semibold", sans-serif;
+text-transform: capitalize;
+margin-bottom: 28px;
+letter-spacing: 1.5px;
+}
+.services-item p {
+    line-height: 1.63;
+    letter-spacing: 0.8px;
+    width: 269px;
+    height: 66px;
+}
+
+           /*blocks*/
+
+.block {
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 108px;
+
+}
+.title p {
+ text-align: center;
+line-height: 2.06;
+max-width: 761px;
+}
+.title h3 {
+    letter-spacing: 2px;
+    margin-bottom: 49px;
+    font-family: "Sans-bold";
+    max-width: 761px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 1168px;
+    margin:0 auto;
+    position: relative;
+}
+.card-item {
+    background-color: #222222;
+    width: 368px;
+    height: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #eeeeee;
+    text-align: left;
+    padding: 0px 32px;
+}
+.card-item h4 {
+font-size: 14px;
+letter-spacing: 1.05px;
+text-transform: uppercase;
+margin-left: 39px;
+    padding-bottom: 35px;
+    padding-top: 69px;
+    padding-right: 32px;
+}
+/*.person p {
+    letter-spacing: 1.8px;
+    font-size: 24px;
+    line-height: 1.38;
+    margin-left: 39px;
+    padding-bottom: 92px;
+}*/
+.card-item p {
+    letter-spacing: 1.8px;
+    font-size: 24px;
+    max-height: 88px;
+    line-height: 1.38;
+    margin-left: 39px;
+    margin-right: 74px;
+    padding-bottom: 54px;
+    
+
+}
+.info {
+    font-size: 14px;
+    letter-spacing: 1.05px;
+    display: flex;
+    justify-content: space-around;
+    line-height: normal;
+}
+.info img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 54px;
+    margin-right: -25px;
+    
+   
+}
+.info-items {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    letter-spacing: 1.05px;
+    margin-right: 16px;
+    margin-right: 55px;
+    text-transform: uppercase;
+}
+
+/*
+сделать стрелочку, отступы между карточками
+
+infinite: false
+*/
